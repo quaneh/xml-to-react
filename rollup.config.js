@@ -40,7 +40,7 @@ export default [
         format: 'es',
       },
     ],
-    external: ['xmldom'],
+    external: ['@xmldom/xmldom'],
     plugins: [
       commonjs(),
       peerDeps(),
