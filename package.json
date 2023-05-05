@@ -1,5 +1,5 @@
 {
-  "name": "@condenast/xml-to-react",
+  "name": "@hquane/xml-to-react",
   "version": "1.0.0",
   "description": "Converts an XML document into a React tree",
   "main": "dist/commonjs/XMLToReact.js",
@@ -18,14 +18,10 @@
     "test": "jest --silent=true",
     "test:watch": "jest --silent=true --watch"
   },
-  "repository": "https://github.com/CondeNast/xml-to-react",
+  "repository": "https://github.com/hquane/xml-to-react",
   "contributors": [
-    "Phil Gold <phil_gold@condenast.com>",
-    "Daniel Taveras <daniel_taveras@condenast.com>"
   ],
   "license": "Apache-2.0",
-  "bugs": "https://github.com/CondeNast/xml-to-react/issues",
-  "homepage": "https://github.com/CondeNast/xml-to-react#readme",
   "dependencies": {
     "@xmldom/xmldom": "~0.7.7"
   },
@@ -55,6 +51,6 @@
     "rollup-plugin-peer-deps-external": "^2.0.0"
   },
   "peerDependencies": {
-    "react": "^0.13.0 || ^0.14.0 || ^15.0.0 || ^16"
+    "react": "^0.13.0 || ^0.14.0 || ^15.0.0 || ^16 || ^17"
   }
 }
